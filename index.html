@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Менеджер подписок</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <div class="layout">
+
+    <!-- ===== Боковое меню ===== -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">💸 SubTrack</div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active">🏠 Главная</a>
+        <a href="#" class="nav-item">📋 Подписки</a>
+        <a href="#" class="nav-item">📅 Календарь</a>
+        <a href="#" class="nav-item">📊 Аналитика</a>
+        <a href="#" class="nav-item">💡 Рекомендации</a>
+      </nav>
+      
+    </aside>
+
+    <div class="main">
+      <!-- Меню входа/регистрации -->
+      <header class="topbar">
+      </header>
+
+      <!-- Обзор подписок -->
+      <section class="dashboard">
+        <h1>Обзор подписок</h1>
+        <div class="stats-grid">
+
+          <div class="stat-card">
+            <h3>Общие расходы</h3>
+            <p class="stat-value">2 490 ₽</p>
+            <div class="stat-comparison negative">
+              <span class="comparison-text">+100 ₽ к прошлому месяцу</span>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <h3>Активные подписки</h3>
+            <p class="stat-value">5</p>
+            <span class="stat-label">активных сервисов</span>
+          </div>
+
+          <div class="stat-card">
+            <h3>Ближайшие платежи</h3>
+            <div class="upcoming-list">
+              <div class="upcoming-item">
+                <span class="upcoming-name">Яндекс Плюс</span>
+                <span class="upcoming-date">05.11</span>
+              </div>
+              <div class="upcoming-item">
+                <span class="upcoming-name">Яндекс Музыка</span>
+                <span class="upcoming-date">05.11</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Подписки -->
+      <section class="subscriptions">
+        <div class="section-header">
+          <h2>Мои подписки</h2>
+          <button class="btn-add">+ Добавить</button>
+        </div>
+
+        <div class="subs-grid">
+          <div class="sub-card">
+            <div class="sub-header">
+              <span class="sub-icon">🎵</span>
+              <div>
+                <h3>Яндекс Музыка</h3>
+                <p class="category">Музыка</p>
+              </div>
+            </div>
+            <div class="sub-info">
+              <p class="price">299 ₽/мес</p>
+              <p class="date">05.11.2025</p>
+            </div>
+            <div class="sub-actions">
+              <button class="btn-edit">✏️</button>
+              <button class="btn-delete">🗑️</button>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="sub-header">
+              <span class="sub-icon">🎬</span>
+              <div>
+                <h3>Иви</h3>
+                <p class="category">Кино и сериалы</p>
+              </div>
+            </div>
+            <div class="sub-info">
+              <p class="price">449 ₽/мес</p>
+              <p class="date">10.11.2025</p>
+            </div>
+            <div class="sub-actions">
+              <button class="btn-edit">✏️</button>
+              <button class="btn-delete">🗑️</button>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="sub-header">
+              <span class="sub-icon">📚</span>
+              <div>
+                <h3>Литрес</h3>
+                <p class="category">Книги и аудиокниги</p>
+              </div>
+            </div>
+            <div class="sub-info">
+              <p class="price">499 ₽/мес</p>
+              <p class="date">15.11.2025</p>
+            </div>
+            <div class="sub-actions">
+              <button class="btn-edit">✏️</button>
+              <button class="btn-delete">🗑️</button>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="sub-header">
+              <span class="sub-icon">📱</span>
+              <div>
+                <h3>Яндекс Плюс</h3>
+                <p class="category">Мультимедиа</p>
+              </div>
+            </div>
+            <div class="sub-info">
+              <p class="price">799 ₽/мес</p>
+              <p class="date">05.11.2025</p>
+            </div>
+            <div class="sub-actions">
+              <button class="btn-edit">✏️</button>
+              <button class="btn-delete">🗑️</button>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="sub-header">
+              <span class="sub-icon">🎮</span>
+              <div>
+                <h3>VK Play</h3>
+                <p class="category">Игры</p>
+              </div>
+            </div>
+            <div class="sub-info">
+              <p class="price">444 ₽/мес</p>
+              <p class="date">20.11.2025</p>
+            </div>
+            <div class="sub-actions">
+              <button class="btn-edit">✏️</button>
+              <button class="btn-delete">🗑️</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        © 2025 SubTrack
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
